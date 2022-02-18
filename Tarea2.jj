@@ -1,0 +1,48 @@
+options { Ignore_Case = false; }
+
+PARSER_BEGIN(Tarea2)
+	public class Tarea2{
+		public static void main (String[] args) throws ParseException{
+		Tarea2 anLex = new Tarea2(System.in);
+		anLex.unaExpresion();
+		System.out.println("Analisis Terminado.");
+		}
+	}
+PARSER_END(Tarea2)
+TOKEN: {
+	<ONE: "1"> {}
+	|
+	<TWO: "2"> {}
+	|
+	<NUMBER: ["0"-"9"]> {}
+	|
+	<SHORT: ["0"-"4"]> {}
+	|
+	<PUNTO: "."> {}
+	|
+	<DOSPUNTOS: ":">{}
+	|
+	<IPNUMBER: ((<ONE>)?(<NUMBER>){1,2} | <TWO><SHORT><NUMBER> | <TWO>"5"["0"-"5"])>{}
+	|
+	<MAYUSCULA: ["A"-"F"]>{}
+	|
+	<MACNUMBER: (<NUMBER> | <MAYUSCULA>){2} >{}	
+}
+TOKEN:{
+	<VOIP: "00"<DOSPUNTOS>"0B"<DOSPUNTOS>"82"<DOSPUNTOS>(<MACNUMBER><DOSPUNTOS>){2}<MACNUMBER>>{System.out.println("VOIP: "+image);}
+}
+TOKEN: {
+	<MAC: (<MACNUMBER><DOSPUNTOS>){5}<MACNUMBER> > {System.out.println("MAC: "+image);}
+}
+TOKEN: {
+	<IP: ((<IPNUMBER>)<PUNTO>){3}<IPNUMBER> > {System.out.println("IP: "+image);}
+}
+SKIP:
+{
+	" " | "\t" | "\n" | "\r" | <~[]>
+}
+
+	void unaExpresion(): {}
+	{
+		(<ONE>|<TWO>|<SHORT>|<IPNUMBER>|<PUNTO>|<NUMBER>|<IP>|<DOSPUNTOS>|<MAYUSCULA>|<MACNUMBER>|<MAC>|<VOIP>)+ <EOF>
+	}

@@ -1,0 +1,408 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-02-15 00:01 CST
+Warning: 148.216.94.7 giving up on port because retransmission cap hit (10).
+Stats: 0:03:30 elapsed; 242 hosts completed (14 up), 14 undergoing NULL Scan
+NULL Scan Timing: About 96.88% done; ETC: 00:05 (0:00:07 remaining)
+Nmap scan report for 148.216.94.1
+Host is up (0.00100s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE    VERSION
+23/tcp   open  telnet     Extreme Networks switch telnetd
+4001/tcp open  tcpwrapped
+Device type: switch
+Running: Extreme Networks ExtremeXOS 15.X|12.X
+OS CPE: cpe:/o:extremenetworks:extremexos:15.3 cpe:/o:extremenetworks:extremexos:12.5.1
+OS details: Extreme Networks ExtremeXOS 12.5.1 or 15.3
+Network Distance: 2 hops
+Service Info: Device: switch
+
+Nmap scan report for 148.216.94.2
+Host is up (0.0010s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE    VERSION
+23/tcp   open  telnet     Extreme Networks switch telnetd
+4001/tcp open  tcpwrapped
+Device type: switch
+Running: Extreme Networks ExtremeXOS 15.X|12.X
+OS CPE: cpe:/o:extremenetworks:extremexos:15.3 cpe:/o:extremenetworks:extremexos:12.5.1
+OS details: Extreme Networks ExtremeXOS 12.5.1 or 15.3
+Network Distance: 2 hops
+Service Info: Device: switch
+
+Nmap scan report for 148.216.94.7
+Host is up (0.00053s latency).
+Not shown: 838 closed ports, 155 filtered ports
+PORT      STATE SERVICE        VERSION
+2049/tcp  open  nfs            2-4 (RPC #100003)
+5001/tcp  open  commplex-link?
+8649/tcp  open  tcpwrapped
+8651/tcp  open  tcpwrapped
+8652/tcp  open  tcpwrapped
+9000/tcp  open  http           TwistedWeb httpd 11.0.0
+15004/tcp open  tcpwrapped
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.10
+Network Distance: 2 hops
+
+Nmap scan report for 148.216.94.10
+Host is up (0.00027s latency).
+All 1000 scanned ports on 148.216.94.10 are closed
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+Nmap scan report for 148.216.94.19
+Host is up (0.00068s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.8 (protocol 2.0)
+80/tcp   open  http     Apache httpd 2.4.33 ((Unix) LibreSSL/2.2.7)
+443/tcp  open  ssl/http Apache httpd 2.4.33 ((Unix) LibreSSL/2.2.7)
+5900/tcp open  vnc      Apple remote desktop vnc
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=2/15%OT=22%CT=1%CU=42907%PV=N%DS=2%DC=I%G=Y%TM=620B47D
+OS:7%P=x86_64-apple-darwin16.7.0)SEQ(SP=103%GCD=1%ISR=108%TI=Z%CI=RD%II=RI%
+OS:TS=A)OPS(O1=M5B4NW5NNT11SLL%O2=M5B4NW5NNT11SLL%O3=M5B4NW5NNT11%O4=M5B4NW
+OS:5NNT11SLL%O5=M5B4NW5NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF
+OS:%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW5SLL%CC=Y%Q=)T
+OS:1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0
+OS:%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6
+OS:(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F
+OS:=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%
+OS:RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 148.216.94.21
+Host is up (0.0034s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.8 (protocol 2.0)
+80/tcp   open  http     Apache httpd 2.4.33 ((Unix) LibreSSL/2.2.7)
+443/tcp  open  ssl/http Apache httpd 2.4.33 ((Unix) LibreSSL/2.2.7)
+5900/tcp open  vnc      Apple remote desktop vnc
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=2/15%OT=22%CT=1%CU=34587%PV=N%DS=2%DC=I%G=Y%TM=620B47D
+OS:7%P=x86_64-apple-darwin16.7.0)SEQ(SP=102%GCD=1%ISR=10A%TI=Z%CI=RD%II=RI%
+OS:TS=A)OPS(O1=M5B4NW5NNT11SLL%O2=M5B4NW5NNT11SLL%O3=M5B4NW5NNT11%O4=M5B4NW
+OS:5NNT11SLL%O5=M5B4NW5NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF
+OS:%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW5SLL%CC=Y%Q=)T
+OS:1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0
+OS:%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6
+OS:(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F
+OS:=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%
+OS:RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 148.216.94.25
+Host is up (0.0020s latency).
+Not shown: 993 closed ports
+PORT     STATE         SERVICE        VERSION
+80/tcp   open          soap           gSOAP 2.7
+443/tcp  open          ssl/tcpwrapped
+515/tcp  open          printer
+631/tcp  open          soap           gSOAP 2.7
+8080/tcp open          soap           gSOAP 2.7
+8291/tcp open          unknown
+9100/tcp open|filtered jetdirect
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=2/15%OT=80%CT=1%CU=43806%PV=N%DS=2%DC=I%G=Y%TM=620B47D
+OS:7%P=x86_64-apple-darwin16.7.0)SEQ(SP=104%GCD=1%ISR=10A%TI=I%TS=A)SEQ(SP=
+OS:104%GCD=1%ISR=10A%TI=I%CI=I%II=I%TS=A)OPS(O1=M5B4NW0NNT11%O2=M578NW0NNSN
+OS:NT11%O3=M280NW0NNT11%O4=M5B4NW0NNSNNT11%O5=M218NW0NNSNNT11%O6=M109NNSNNT
+OS:11)WIN(W1=21F0%W2=2088%W3=2258%W4=21F0%W5=20C0%W6=209D)ECN(R=Y%DF=Y%T=40
+OS:%W=2238%O=M5B4NW0NNS%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R
+OS:=N)T3(R=N)T4(R=N)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF
+OS:=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+OS:IE(R=Y%DFI=N%T=FF%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 148.216.94.26
+Host is up (0.00048s latency).
+Not shown: 991 open|filtered ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Apache httpd 2.4.41 ((Win64))
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1947/tcp  open  sentinelsrm?
+3306/tcp  open  mysql         MySQL 5.7.27-log
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+6002/tcp  open  X11:2?
+27000/tcp open  flexlm        FlexLM license manager
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1947-TCP:V=7.91%I=7%D=2/15%Time=620B4395%P=x86_64-apple-darwin16.7.
+SF:0%r(GetRequest,12A,"HTTP/1\.0\x20403\x20Forbidden\r\nServer:\x20HASP\x2
+SF:0LM/24\.02\r\nDate:\x20Tue,\x2015\x20Feb\x202022\x2006:09:25\x20GMT\r\n
+SF:X-Frame-Options:\x20SAMEORIGIN\r\nContent-Type:\x20text/html\r\nContent
+SF:-Length:\x20137\r\n\r\n<title>403\x20Forbidden</title>\n<h1>403\x20Forb
+SF:idden</h1>\nAccess\x20to\x20this\x20resource\x20has\x20been\x20denied\x
+SF:20to\x20you\.\n<p>Please\x20contact\x20the\x20administrator\.\n")%r(HTT
+SF:POptions,14B,"HTTP/0\.0\x20501\x20Not\x20Implemented\r\nServer:\x20HASP
+SF:\x20LM/24\.02\r\nDate:\x20Tue,\x2015\x20Feb\x202022\x2006:09:25\x20GMT\
+SF:r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Type:\x20text/html\r\nCont
+SF:ent-Length:\x20164\r\n\r\n<title>501\x20Not\x20Implemented</title>\n<h1
+SF:>501\x20Not\x20Implemented</h1>\nYour\x20request\x20was\x20not\x20under
+SF:stood\x20or\x20not\x20allowed\x20by\x20this\x20server\.\n<p>Please\x20c
+SF:ontact\x20the\x20administrator\.\n")%r(RTSPRequest,14B,"HTTP/0\.0\x2050
+SF:1\x20Not\x20Implemented\r\nServer:\x20HASP\x20LM/24\.02\r\nDate:\x20Tue
+SF:,\x2015\x20Feb\x202022\x2006:09:25\x20GMT\r\nX-Frame-Options:\x20SAMEOR
+SF:IGIN\r\nContent-Type:\x20text/html\r\nContent-Length:\x20164\r\n\r\n<ti
+SF:tle>501\x20Not\x20Implemented</title>\n<h1>501\x20Not\x20Implemented</h
+SF:1>\nYour\x20request\x20was\x20not\x20understood\x20or\x20not\x20allowed
+SF:\x20by\x20this\x20server\.\n<p>Please\x20contact\x20the\x20administrato
+SF:r\.\n")%r(FourOhFourRequest,12A,"HTTP/1\.0\x20403\x20Forbidden\r\nServe
+SF:r:\x20HASP\x20LM/24\.02\r\nDate:\x20Tue,\x2015\x20Feb\x202022\x2006:10:
+SF:07\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Type:\x20text/ht
+SF:ml\r\nContent-Length:\x20137\r\n\r\n<title>403\x20Forbidden</title>\n<h
+SF:1>403\x20Forbidden</h1>\nAccess\x20to\x20this\x20resource\x20has\x20bee
+SF:n\x20denied\x20to\x20you\.\n<p>Please\x20contact\x20the\x20administrato
+SF:r\.\n")%r(SIPOptions,14B,"HTTP/0\.0\x20501\x20Not\x20Implemented\r\nSer
+SF:ver:\x20HASP\x20LM/24\.02\r\nDate:\x20Tue,\x2015\x20Feb\x202022\x2006:1
+SF:0:22\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Type:\x20text/
+SF:html\r\nContent-Length:\x20164\r\n\r\n<title>501\x20Not\x20Implemented<
+SF:/title>\n<h1>501\x20Not\x20Implemented</h1>\nYour\x20request\x20was\x20
+SF:not\x20understood\x20or\x20not\x20allowed\x20by\x20this\x20server\.\n<p
+SF:>Please\x20contact\x20the\x20administrator\.\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port6002-TCP:V=7.91%I=7%D=2/15%Time=620B43E1%P=x86_64-apple-darwin16.7.
+SF:0%r(GetRequest,813,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2015\x20Fe
+SF:b\x202022\x2006:10:41\x20GMT\r\nServer:\x20SentinelProtectionServer/7\.
+SF:3\r\nMIME-Version:\x201\.1\r\nContent-Type:\x20text/html\r\nKeep-Alive:
+SF:1\r\nContent-Length:\x201893\r\n\r\n<!--\r\n/\*\*\*\*\*\*\*\*\*\*\*\*\*
+SF:\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
+SF:*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/\r\n/\*\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\*/\r\n/\*\x20\x20\x20\x20\x20\x20Copyright\x20\(C
+SF:\)\x202009\x20SafeNet,\x20Inc\.\x20All\x20Rights\x20Reserved\.\x20\x20\
+SF:x20\x20\x20\x20\*/\r\n/\*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\*/\r\n/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+SF:\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
+SF:*/\r\n-->\r\n\r\n<html>\r\n\x20\x20<head>\r\n\x20\x20\x20\x20\x20\x20<m
+SF:eta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome=1\"/>
+SF:\r\n\x20\x20\x20\x20\x20\x20<title>Sentinel\x20License\x20Monitor</titl
+SF:e>\r\n\x20\x20</head>\r\n\r\n\x20\x20<body>\x20\r\n\r\n<script\x20langu
+SF:age=\"JavaScript\">\r\n<!--\r\nvar\x20_info\x20=\x20navigator\.userAgen
+SF:t;\x20\r\nvar\x20_ie\x20=\x20\(_info\.indexOf\(\"MSIE\"\)\x20>\x200\x20
+SF:&&\x20_info\.indexOf\(\"Win\"\)\x20>\x200\x20&&\x20_info\.indexOf\(\"Wi
+SF:ndows\x203\.1\"\)\x20<\x200\);\r\nvar\x20_ie64=\(_info\.in");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2016
+OS CPE: cpe:/o:microsoft:windows_server_2016
+OS details: Microsoft Windows Server 2016
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 148.216.94.31
+Host is up (0.00044s latency).
+Not shown: 982 open|filtered ports
+PORT      STATE SERVICE        VERSION
+80/tcp    open  http           Microsoft IIS httpd 10.0
+135/tcp   open  msrpc          Microsoft Windows RPC
+139/tcp   open  netbios-ssn    Microsoft Windows netbios-ssn
+443/tcp   open  ssl/http       Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+445/tcp   open  microsoft-ds   Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1723/tcp  open  pptp           Microsoft
+1801/tcp  open  msmq?
+2103/tcp  open  msrpc          Microsoft Windows RPC
+2105/tcp  open  msrpc          Microsoft Windows RPC
+2107/tcp  open  msrpc          Microsoft Windows RPC
+3389/tcp  open  ms-wbt-server  Microsoft Terminal Services
+5800/tcp  open  mc-nmf         .NET Message Framing
+5999/tcp  open  ncd-conf?
+6002/tcp  open  X11:2?
+7001/tcp  open  afs3-callback?
+7002/tcp  open  http           SafeNet Sentinel Keys License Monitor httpd 1.3.5 (Java Console)
+9090/tcp  open  mc-nmf         .NET Message Framing
+20005/tcp open  btx?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port6002-TCP:V=7.91%I=7%D=2/15%Time=620B44EB%P=x86_64-apple-darwin16.7.
+SF:0%r(GetRequest,F57,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2015\x20Fe
+SF:b\x202022\x2006:15:07\x20GMT\r\nServer:\x20SentinelProtectionServer/7\.
+SF:3\r\nMIME-Version:\x201\.1\r\nContent-Type:\x20text/html\r\nKeep-Alive:
+SF:1\r\nContent-Length:\x203753\r\n\r\n<!--\r\n/\*\*\*\*\*\*\*\*\*\*\*\*\*
+SF:\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
+SF:*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/\r\n/\*\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\*/\r\n/\*\x20\x20\x20\x20\x20\x20Copyright\x20\(C
+SF:\)\x202016\x20SafeNet,\x20Inc\.\x20All\x20Rights\x20Reserved\.\x20\x20\
+SF:x20\x20\x20\x20\*/\r\n/\*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\*/\r\n/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+SF:\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
+SF:*/\r\n-->\r\n<!DOCTYPE\x20html>\r\n<html>\r\n\x20\x20<head>\r\n\x20\x20
+SF:<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20charset
+SF:=Windows-1252\"\x20/>\r\n\x20\x20<meta\x20http-equiv=\"x-ua-compatible\
+SF:"\x20content=\"IE=Edge\"\x20>\r\n\x20\x20<meta\x20http-equiv='cache-con
+SF:trol'\x20content='no-cache'>\r\n\x20\x20<meta\x20http-equiv='expires'\x
+SF:20content='0'>\r\n\x20\x20<meta\x20http-equiv='pragma'\x20content='no-c
+SF:ache'>\r\n<title>Sentinel\x20License\x20Monitor</title>");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port20005-TCP:V=7.91%I=7%D=2/15%Time=620B4530%P=x86_64-apple-darwin16.7
+SF:.0%r(NULL,94,"\x94\0\0\0\0\0F\0\0\0\0\0\x03\x80\x1f\0\0\x1e\0\0\0\0\x02
+SF:\0\0\x1f\x0c\x07\xd9\xd1p8\xedlO\x9a\xcf\x9a\xdd\xdb\xfa\xd5\t\x08R/\?\
+SF:x01\x80\x0e\0\0\r\0\0\0\0\x02\0\0\x1f\t\x01/\?\t\x80\r\0\0\x0c\0\0\0\0\
+SF:x02\0\0\x1fB/\?\0A\0\0\0\0\0\0\0\x1f\x8d\x11C\0E\0M\0I\0E\0O\0C\0E\0A\0
+SF:N\0O\0:\x002\x000\x000\x000\x005\0J\x0c\x86\x80\x9a\r\(\"\xd7D\xb7\x89C
+SF:\xe8\x1fT\x80\x1f/\?")%r(GenericLines,94,"\x94\0\0\0\0\0F\0\0\0\0\0\x03
+SF:\x80\x1f\0\0\x1e\0\0\0\0\x02\0\0\x1f\x0c\x07\xd9\xd1p8\xedlO\x9a\xcf\x9
+SF:a\xdd\xdb\xfa\xd5\t\x08R/\?\x01\x80\x0e\0\0\r\0\0\0\0\x02\0\0\x1f\t\x01
+SF:/\?\t\x80\r\0\0\x0c\0\0\0\0\x02\0\0\x1fB/\?\0A\0\0\0\0\0\0\0\x1f\x8d\x1
+SF:1C\0E\0M\0I\0E\0O\0C\0E\0A\0N\0O\0:\x002\x000\x000\x000\x005\0J\x0c\x86
+SF:\x80\x9a\r\(\"\xd7D\xb7\x89C\xe8\x1fT\x80\x1f/\?")%r(GetRequest,94,"\x9
+SF:4\0\0\0\0\0F\0\0\0\0\0\x03\x80\x1f\0\0\x1e\0\0\0\0\x02\0\0\x1f\x0c\x07\
+SF:xd9\xd1p8\xedlO\x9a\xcf\x9a\xdd\xdb\xfa\xd5\t\x08U/\?\x01\x80\x0e\0\0\r
+SF:\0\0\0\0\x02\0\0\x1f\t\x01/\?\t\x80\r\0\0\x0c\0\0\0\0\x02\0\0\x1fB/\?\0
+SF:A\0\0\0\0\0\0\0\x1f\x8d\x11C\0E\0M\0I\0E\0O\0C\0E\0A\0N\0O\0:\x002\x000
+SF:\x000\x000\x005\0J\x0cp\xbe\x16\0\x94ocF\xaeR\x17t:\xebCP/\?")%r(HTTPOp
+SF:tions,94,"\x94\0\0\0\0\0F\0\0\0\0\0\x03\x80\x1f\0\0\x1e\0\0\0\0\x02\0\0
+SF:\x1f\x0c\x07\xd9\xd1p8\xedlO\x9a\xcf\x9a\xdd\xdb\xfa\xd5\t\x08X/\?\x01\
+SF:x80\x0e\0\0\r\0\0\0\0\x02\0\0\x1f\t\x01/\?\t\x80\r\0\0\x0c\0\0\0\0\x02\
+SF:0\0\x1fB/\?\0A\0\0\0\0\0\0\0\x1f\x8d\x11C\0E\0M\0I\0E\0O\0C\0E\0A\0N\0O
+SF:\0:\x002\x000\x000\x000\x005\0J\x0c\xd9\xa06\xcf\xf9\xbdbC\xafEP\xbcg\x
+SF:90U\xf4/\?")%r(RTSPRequest,94,"\x94\0\0\0\0\0F\0\0\0\0\0\x03\x80\x1f\0\
+SF:0\x1e\0\0\0\0\x02\0\0\x1f\x0c\x07\xd9\xd1p8\xedlO\x9a\xcf\x9a\xdd\xdb\x
+SF:fa\xd5\t\x08\[/\?\x01\x80\x0e\0\0\r\0\0\0\0\x02\0\0\x1f\t\x01/\?\t\x80\
+SF:r\0\0\x0c\0\0\0\0\x02\0\0\x1fB/\?\0A\0\0\0\0\0\0\0\x1f\x8d\x11C\0E\0M\0
+SF:I\0E\0O\0C\0E\0A\0N\0O\0:\x002\x000\x000\x000\x005\0J\x0c\xc5B\^Gk\xccD
+SF:D\x9f\xb7:\xd5\x9es;\xc2/\?")%r(RPCCheck,94,"\x94\0\0\0\0\0F\0\0\0\0\0\
+SF:x03\x80\x1f\0\0\x1e\0\0\0\0\x02\0\0\x1f\x0c\x07\xd9\xd1p8\xedlO\x9a\xcf
+SF:\x9a\xdd\xdb\xfa\xd5\t\x08\^/\?\x01\x80\x0e\0\0\r\0\0\0\0\x02\0\0\x1f\t
+SF:\x01/\?\t\x80\r\0\0\x0c\0\0\0\0\x02\0\0\x1fB/\?\0A\0\0\0\0\0\0\0\x1f\x8
+SF:d\x11C\0E\0M\0I\0E\0O\0C\0E\0A\0N\0O\0:\x002\x000\x000\x000\x005\0J\x0c
+SF:\xef\x88\xd2k\xdfk\xd5G\xa8!\xd8\x16F\xb2\xdf\x95/\?");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2016|2012|10 (98%)
+OS CPE: cpe:/o:microsoft:windows_server_2016 cpe:/o:microsoft:windows_server_2012:r2 cpe:/o:microsoft:windows_10
+Aggressive OS guesses: Microsoft Windows Server 2016 (98%), Microsoft Windows Server 2012 or Windows Server 2012 R2 (92%), Microsoft Windows 10 1511 - 1607 (89%), Microsoft Windows Server 2012 R2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 148.216.94.40
+Host is up (0.00052s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 8.1 (protocol 2.0)
+80/tcp   open  http          Apache Tomcat 8.5.8
+3283/tcp open  netassistant?
+3306/tcp open  mysql         MySQL (unauthorized)
+5900/tcp open  vnc           Apple remote desktop vnc
+5901/tcp open  vnc           (protocol 3)
+8009/tcp open  ajp13         Apache Jserv (Protocol v1.3)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5901-TCP:V=7.91%I=7%D=2/15%Time=620B454C%P=x86_64-apple-darwin16.7.
+SF:0%r(NULL,5B,"RFB\x20003\.003\n\0\0\0\0\0\0\0GEl\x20periodo\x20de\x20pru
+SF:eba\x20de\x20las\x20caracter\xc3\xadsticas\x20de\x20VNC\x20Server\x20ha
+SF:\x20caducado\.");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=2/15%OT=22%CT=1%CU=39462%PV=N%DS=2%DC=I%G=Y%TM=620B47D
+OS:7%P=x86_64-apple-darwin16.7.0)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=RD%II=RI%
+OS:TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4N
+OS:W6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFF
+OS:F%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)
+OS:T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%
+OS:F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0
+OS:%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 148.216.94.53
+Host is up (0.00065s latency).
+Not shown: 988 open|filtered ports
+PORT      STATE  SERVICE      VERSION
+135/tcp   closed msrpc
+139/tcp   closed netbios-ssn
+445/tcp   closed microsoft-ds
+1032/tcp  closed iad3
+1033/tcp  closed netinfo
+49152/tcp closed unknown
+49153/tcp closed unknown
+49154/tcp closed unknown
+49155/tcp closed unknown
+49156/tcp closed unknown
+49158/tcp closed unknown
+49159/tcp closed unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|media device
+Running (JUST GUESSING): Microsoft Windows 2008|7|Embedded Compact 7|10|8.1|2012|2016 (90%), Microsoft embedded (90%)
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_embedded_compact_7 cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_8.1 cpe:/h:microsoft:xbox_one cpe:/o:microsoft:windows_server_2012 cpe:/o:microsoft:windows_server_2016
+Aggressive OS guesses: Microsoft Windows Server 2008 R2 SP1 (90%), Microsoft Windows 7 (90%), Microsoft Windows 7 Enterprise SP1 (90%), Microsoft Windows 7 Professional SP1 (90%), Microsoft Windows 7 SP0 - SP1, Windows Server 2008, or Windows Embedded Compact 7 (90%), Microsoft Windows 7 SP1 (90%), Microsoft Windows 10 (90%), Microsoft Windows 10 10586 - 14393 (90%), Microsoft Windows 10 1507 (90%), Microsoft Windows 10 1507 - 1607 (90%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 148.216.94.69
+Host is up (0.0023s latency).
+Not shown: 995 closed ports
+PORT      STATE SERVICE         VERSION
+8008/tcp  open  http?
+8009/tcp  open  tcpwrapped
+8443/tcp  open  ssl/https-alt?
+9000/tcp  open  ssl/cslistener?
+10001/tcp open  ssl/scp-config?
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=2/15%OT=8008%CT=1%CU=33693%PV=N%DS=2%DC=I%G=Y%TM=620B4
+OS:7D7%P=x86_64-apple-darwin16.7.0)SEQ(SP=104%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%
+OS:TS=7)OPS(O1=M5B4ST11NW6%O2=M5B4ST11NW6%O3=M5B4NNT11NW6%O4=M5B4ST11NW6%O5
+OS:=M5B4ST11NW6%O6=M5B4ST11)WIN(W1=3890%W2=3890%W3=3890%W4=3890%W5=3890%W6=
+OS:3890)ECN(R=Y%DF=Y%T=40%W=3908%O=M5B4NNSNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=E5%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=32%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 148.216.94.195
+Host is up (0.00043s latency).
+All 1000 scanned ports on 148.216.94.195 are open|filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 148.216.94.254
+Host is up (0.0022s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE    VERSION
+22/tcp  open  tcpwrapped
+443/tcp open  ssl/http   ExtremeWare XOS httpd 22nov2004
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=2/15%OT=443%CT=1%CU=34188%PV=N%DS=1%DC=I%G=Y%TM=620B47
+OS:D7%P=x86_64-apple-darwin16.7.0)SEQ(SP=CC%GCD=1%ISR=C6%TI=Z%CI=Z%II=I%TS=
+OS:7)OPS(O1=M5B4NNT11NW5%O2=M5B4NNT11NW5%O3=M5B4NNT11NW5%O4=M5B4NNT11NW5%O5
+OS:=M5B4NNT11NW5%O6=M5B4NNT11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W
+OS:6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M5B4NW5%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A
+OS:=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4NNT1
+OS:1NW5%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=4
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%
+OS:Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=16
+OS:4%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: OS: ExtremeXOS; CPE: cpe:/o:extremenetworks:extremeware_xos
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (14 hosts up) scanned in 1558.42 seconds

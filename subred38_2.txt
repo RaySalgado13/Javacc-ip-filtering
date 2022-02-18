@@ -1,0 +1,740 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-27 14:42 CST
+Nmap scan report for 148.216.38.1
+Host is up (0.0010s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        SCS sshd 4.1.2 (protocol 2.0)
+23/tcp   open  telnet?
+443/tcp  open  ssl/https?
+4001/tcp open  tcpwrapped
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port23-TCP:V=7.91%I=7%D=1/27%Time=61F303F9%P=x86_64-apple-darwin16.7.0%
+SF:r(NULL,14,"Connection\x20refused\r\n");
+MAC Address: 02:04:96:8B:C5:20 (Unknown)
+Device type: switch
+Running: Extreme Networks ExtremeXOS 15.X|12.X
+OS CPE: cpe:/o:extremenetworks:extremexos:15.3 cpe:/o:extremenetworks:extremexos:12.5.1
+OS details: Extreme Networks ExtremeXOS 12.5.1 or 15.3
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.12
+Host is up (0.0063s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp
+23/tcp open  telnet  Cisco or Actiontec MI424WR router telnetd
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port21-TCP:V=7.91%I=7%D=1/27%Time=61F303FF%P=x86_64-apple-darwin16.7.0%
+SF:r(NULL,10,"220\x20FTP\x20SERVER\r\n")%r(GenericLines,39,"220\x20FTP\x20
+SF:SERVER\r\n500\x20Syntax\x20error,\x20command\x20unrecognized\.\r\n")%r(
+SF:Help,43,"220\x20FTP\x20SERVER\r\n502\x20HELP\x20command\x20not\x20imple
+SF:mented,\x20or\x20not\x20allowed\.\r\n")%r(SSLSessionReq,10,"220\x20FTP\
+SF:x20SERVER\r\n")%r(SMBProgNeg,10,"220\x20FTP\x20SERVER\r\n");
+MAC Address: 00:30:A7:0E:F6:92 (Schweitzer Engineering)
+Device type: printer
+Running: HP embedded
+OS CPE: cpe:/h:hp:laserjet_cp4525 cpe:/h:hp:laserjet_m451dn
+OS details: HP LaserJet M451dn, CM1415fnw, or CP4525
+Network Distance: 1 hop
+Service Info: Device: broadband router; CPE: cpe:/h:actiontec:mi424wr
+
+Nmap scan report for lsc.fie.umich.mx (148.216.38.22)
+Host is up (0.00026s latency).
+Not shown: 974 closed ports
+PORT     STATE SERVICE            VERSION
+22/tcp   open  ssh                OpenSSH 5.2 (protocol 2.0)
+25/tcp   open  smtp               Postfix smtpd
+53/tcp   open  domain             ISC BIND 9.4.3-P3
+80/tcp   open  http               nginx 1.19.8
+88/tcp   open  kerberos-sec       MIT Kerberos (server time: 2022-01-27 20:43:43Z)
+106/tcp  open  pop3pw             ApplePasswordServer pop3 password change daemon 10.5.0.1
+110/tcp  open  pop3
+111/tcp  open  rpcbind            2 (RPC #100000)
+143/tcp  open  imap               Cyrus imapd 2.3.8 (Mac OS X 10.5)
+311/tcp  open  asip-webadmin?
+389/tcp  open  ldap               OpenLDAP 2.2.X - 2.3.X
+443/tcp  open  ssl/http           Apache httpd 2.2.13 (mod_ssl/2.2.17 OpenSSL/0.9.7l mod_python/3.3.1 Python/2.5.1 mod_wsgi/3.3 PHP/5.3.0 mod_perl/2.0.2 Perl/v5.8.8)
+548/tcp  open  afp                Apple AFP (name: dep (3); protocol 3.3; Mac OS X 10.5)
+625/tcp  open  apple-xsrvr-admin?
+749/tcp  open  rpcbind
+993/tcp  open  ssl/imap           Cyrus imapd 2.3.8 (Mac OS X 10.5)
+995/tcp  open  ssl/pop3
+1021/tcp open  nlockmgr           0-4 (RPC #100021)
+1022/tcp open  status             1 (RPC #100024)
+1023/tcp open  mountd             1-3 (RPC #100005)
+2000/tcp open  sieve              Cyrus timsieved 2.3.8
+2049/tcp open  nfs                2-3 (RPC #100003)
+3659/tcp open  pop3pw             ApplePasswordServer pop3 password change daemon 10.5.0.1
+4111/tcp open  beep               Apple Xgrid Controller
+5432/tcp open  postgresql         PostgreSQL DB 8.4.1 - 8.4.11
+5900/tcp open  vnc                Apple remote desktop vnc
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.91%I=7%D=1/27%Time=61F303FF%P=x86_64-apple-darwin16.7.0
+SF:%r(NULL,78,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS
+SF:\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x20<2634775427\.1
+SF:643316220@dep\.fie\.umich\.mx>\r\n")%r(GenericLines,AE,"\+OK\x20dep\.fi
+SF:e\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t
+SF:9G7013y\x20server\x20ready\x20<2634775427\.1643316220@dep\.fie\.umich\.
+SF:mx>\r\n-ERR\x20Unrecognized\x20command\r\n-ERR\x20Unrecognized\x20comma
+SF:nd\r\n")%r(HTTPOptions,AE,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3
+SF:\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x2
+SF:0<1344695857\.1643316228@dep\.fie\.umich\.mx>\r\n-ERR\x20Unrecognized\x
+SF:20command\r\n-ERR\x20Unrecognized\x20command\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port995-TCP:V=7.91%T=SSL%I=7%D=1/27%Time=61F30405%P=x86_64-apple-darwin
+SF:16.7.0%r(NULL,78,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3
+SF:\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x20<1389079
+SF:909\.1643316223@dep\.fie\.umich\.mx>\r\n")%r(GenericLines,AE,"\+OK\x20d
+SF:ep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010
+SF:\.5:\t9G7013y\x20server\x20ready\x20<1389079909\.1643316223@dep\.fie\.u
+SF:mich\.mx>\r\n-ERR\x20Unrecognized\x20command\r\n-ERR\x20Unrecognized\x2
+SF:0command\r\n")%r(HTTPOptions,AD,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x
+SF:20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20re
+SF:ady\x20<999645619\.1643316234@dep\.fie\.umich\.mx>\r\n-ERR\x20Unrecogni
+SF:zed\x20command\r\n-ERR\x20Unrecognized\x20command\r\n");
+MAC Address: 00:1E:52:F3:FC:2D (Apple)
+Device type: phone|media device|general purpose
+Running: Apple iOS 4.X, Apple Mac OS X 10.6.X
+OS CPE: cpe:/o:apple:iphone_os:4 cpe:/o:apple:mac_os_x:10.6
+OS details: Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0)
+Network Distance: 1 hop
+Service Info: Hosts:  dep.fie.umich.mx, DEP.FIE.UMICH.MX, 127.0.0.1; OSs: Mac OS X, Mac OS X Server 10.5:.9G7013y; Device: specialized; CPE: cpe:/o:apple:mac_os_x, cpe:/o:apple:mac_os_x:10.5, cpe:/o:apple:mac_os_x:server_10.5%3A_9g7013y
+
+Nmap scan report for 148.216.38.39
+Host is up (0.00014s latency).
+Not shown: 978 closed ports
+PORT     STATE SERVICE        VERSION
+53/tcp   open  domain         Simple DNS Plus
+80/tcp   open  http           Microsoft IIS httpd 10.0
+88/tcp   open  kerberos-sec   Microsoft Windows Kerberos (server time: 2022-01-27 20:35:25Z)
+135/tcp  open  msrpc          Microsoft Windows RPC
+139/tcp  open  netbios-ssn    Microsoft Windows netbios-ssn
+389/tcp  open  ldap           Microsoft Windows Active Directory LDAP (Domain: modeladosep.umich.mx, Site: Default-First-Site-Name)
+443/tcp  open  ssl/http       Microsoft IIS httpd 10.0
+445/tcp  open  microsoft-ds   Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: MODELADOSEP)
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http     Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+1055/tcp open  flexlm         FlexLM license manager
+3268/tcp open  ldap           Microsoft Windows Active Directory LDAP (Domain: modeladosep.umich.mx, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+3306/tcp open  mysql          MySQL (unauthorized)
+3389/tcp open  ms-wbt-server  Microsoft Terminal Services
+3580/tcp open  http           National Instruments LabVIEW service locator httpd 1.0.0
+6002/tcp open  X11:2?
+7001/tcp open  afs3-callback?
+7002/tcp open  http           SafeNet Sentinel Keys License Monitor httpd 1.3.5 (Java Console)
+8009/tcp open  ajp13          Apache Jserv (Protocol v1.3)
+8080/tcp open  http           Apache Tomcat 9.0.27
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port6002-TCP:V=7.91%I=7%D=1/27%Time=61F3040B%P=x86_64-apple-darwin16.7.
+SF:0%r(GetRequest,813,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Thu,\x2027\x20Ja
+SF:n\x202022\x2020:35:31\x20GMT\r\nServer:\x20SentinelProtectionServer/7\.
+SF:3\r\nMIME-Version:\x201\.1\r\nContent-Type:\x20text/html\r\nKeep-Alive:
+SF:1\r\nContent-Length:\x201893\r\n\r\n<!--\r\n/\*\*\*\*\*\*\*\*\*\*\*\*\*
+SF:\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
+SF:*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/\r\n/\*\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\*/\r\n/\*\x20\x20\x20\x20\x20\x20Copyright\x20\(C
+SF:\)\x202009\x20SafeNet,\x20Inc\.\x20All\x20Rights\x20Reserved\.\x20\x20\
+SF:x20\x20\x20\x20\*/\r\n/\*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\*/\r\n/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+SF:\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
+SF:*/\r\n-->\r\n\r\n<html>\r\n\x20\x20<head>\r\n\x20\x20\x20\x20\x20\x20<m
+SF:eta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge,chrome=1\"/>
+SF:\r\n\x20\x20\x20\x20\x20\x20<title>Sentinel\x20License\x20Monitor</titl
+SF:e>\r\n\x20\x20</head>\r\n\r\n\x20\x20<body>\x20\r\n\r\n<script\x20langu
+SF:age=\"JavaScript\">\r\n<!--\r\nvar\x20_info\x20=\x20navigator\.userAgen
+SF:t;\x20\r\nvar\x20_ie\x20=\x20\(_info\.indexOf\(\"MSIE\"\)\x20>\x200\x20
+SF:&&\x20_info\.indexOf\(\"Win\"\)\x20>\x200\x20&&\x20_info\.indexOf\(\"Wi
+SF:ndows\x203\.1\"\)\x20<\x200\);\r\nvar\x20_ie64=\(_info\.in");
+MAC Address: 44:A8:42:3F:14:E6 (Dell)
+Device type: general purpose
+Running: Microsoft Windows 2016
+OS CPE: cpe:/o:microsoft:windows_server_2016
+OS details: Microsoft Windows Server 2016 build 10586 - 14393
+Network Distance: 1 hop
+Service Info: Host: SERVIDORSEP2; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 148.216.38.43
+Host is up (0.0013s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     oftpd
+23/tcp open  telnet  Pocket CMD telnetd
+80/tcp open  http?
+MAC Address: 00:40:AD:95:A4:69 (SMA Regelsysteme Gmbh)
+Device type: PDA
+Running: Microsoft Windows Mobile 2003
+OS CPE: cpe:/o:microsoft:windows_mobile:2003
+OS details: Microsoft Windows Mobile 2003 PocketPC
+Network Distance: 1 hop
+Service Info: OS: Unix
+
+Nmap scan report for 148.216.38.66
+Host is up (0.00041s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Apache httpd 2.4.37 ((Win64) mod_jk/1.2.40 PHP/7.3.5)
+3306/tcp open  mysql         MySQL 8.0.21
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8009/tcp open  ajp13         Apache Jserv (Protocol v1.3)
+MAC Address: D4:BE:D9:98:23:BF (Dell)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized
+Running (JUST GUESSING): Microsoft Windows XP (92%), AVtech embedded (87%), FreeBSD 6.X|10.X (86%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp3 cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3
+Aggressive OS guesses: Microsoft Windows XP SP3 (92%), AVtech Room Alert 26W environmental monitor (87%), Microsoft Windows XP SP2 (87%), FreeBSD 6.2-RELEASE (86%), FreeBSD 10.3-STABLE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 148.216.38.75
+Host is up (0.00021s latency).
+Not shown: 976 filtered ports
+PORT      STATE SERVICE            VERSION
+80/tcp    open  http               Microsoft IIS httpd 7.0
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 microsoft-ds (workgroup: MODELADOSEP)
+912/tcp   open  vmware-auth        VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1025/tcp  open  msrpc              Microsoft Windows RPC
+1026/tcp  open  msrpc              Microsoft Windows RPC
+1027/tcp  open  msrpc              Microsoft Windows RPC
+1028/tcp  open  msrpc              Microsoft Windows RPC
+1030/tcp  open  msrpc              Microsoft Windows RPC
+1047/tcp  open  msrpc              Microsoft Windows RPC
+1048/tcp  open  msrpc              Microsoft Windows RPC
+1050/tcp  open  flexlm             FlexLM license manager
+1688/tcp  open  msrpc              Microsoft Windows RPC
+1947/tcp  open  http               Aladdin/SafeNet HASP license manager 12.44
+3389/tcp  open  ssl/ms-wbt-server?
+3580/tcp  open  http               National Instruments LabVIEW service locator httpd 1.0.0
+5357/tcp  open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+6002/tcp  open  http               SafeNet Sentinel Protection Server 7.3
+7001/tcp  open  afs3-callback?
+7002/tcp  open  http               SafeNet Sentinel Keys License Monitor httpd 1.3.2 (Java Console)
+8009/tcp  open  ajp13              Apache Jserv (Protocol v1.3)
+8080/tcp  open  http               Embedthis HTTP lib httpd
+27000/tcp open  flexlm             FlexLM license manager
+MAC Address: 00:24:E8:50:95:A5 (Dell)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized|phone
+Running: Microsoft Windows 2008|8.1|7|Phone|Vista
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_7::-:professional cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1
+OS details: Microsoft Windows Server 2008 R2 or Windows 8.1, Microsoft Windows 7 Professional or Windows 8, Microsoft Windows Embedded Standard 7, Microsoft Windows Phone 7.5 or 8.0, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: Host: SERVSELECTRICOS; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2
+
+Nmap scan report for 148.216.38.77
+Host is up (0.00035s latency).
+Not shown: 974 closed ports
+PORT     STATE SERVICE            VERSION
+22/tcp   open  ssh                OpenSSH 5.2 (protocol 2.0)
+25/tcp   open  smtp               Postfix smtpd
+53/tcp   open  domain             ISC BIND 9.4.3-P3
+80/tcp   open  http               nginx 1.19.8
+88/tcp   open  kerberos-sec       MIT Kerberos (server time: 2022-01-27 20:44:15Z)
+106/tcp  open  pop3pw             ApplePasswordServer pop3 password change daemon 10.5.0.1
+110/tcp  open  pop3
+111/tcp  open  rpcbind            2 (RPC #100000)
+143/tcp  open  imap               Cyrus imapd 2.3.8 (Mac OS X 10.5)
+311/tcp  open  asip-webadmin?
+389/tcp  open  ldap               OpenLDAP 2.2.X - 2.3.X
+443/tcp  open  ssl/http           Apache httpd 2.2.13 (mod_ssl/2.2.17 OpenSSL/0.9.7l mod_python/3.3.1 Python/2.5.1 mod_wsgi/3.3 PHP/5.3.0 mod_perl/2.0.2 Perl/v5.8.8)
+548/tcp  open  afp                Apple AFP (name: dep (3); protocol 3.3; Mac OS X 10.5)
+625/tcp  open  apple-xsrvr-admin?
+749/tcp  open  rpcbind
+993/tcp  open  ssl/imap           Cyrus imapd 2.3.8 (Mac OS X 10.5)
+995/tcp  open  ssl/pop3
+1021/tcp open  nlockmgr           0-4 (RPC #100021)
+1022/tcp open  status             1 (RPC #100024)
+1023/tcp open  mountd             1-3 (RPC #100005)
+2000/tcp open  sieve              Cyrus timsieved 2.3.8
+2049/tcp open  nfs                2-3 (RPC #100003)
+3659/tcp open  pop3pw             ApplePasswordServer pop3 password change daemon 10.5.0.1
+4111/tcp open  beep               Apple Xgrid Controller
+5432/tcp open  postgresql         PostgreSQL DB 8.4.1 - 8.4.11
+5900/tcp open  vnc                Apple remote desktop vnc
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.91%I=7%D=1/27%Time=61F3041F%P=x86_64-apple-darwin16.7.0
+SF:%r(NULL,78,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS
+SF:\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x20<1127278476\.1
+SF:643316249@dep\.fie\.umich\.mx>\r\n")%r(GenericLines,AE,"\+OK\x20dep\.fi
+SF:e\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t
+SF:9G7013y\x20server\x20ready\x20<1127278476\.1643316249@dep\.fie\.umich\.
+SF:mx>\r\n-ERR\x20Unrecognized\x20command\r\n-ERR\x20Unrecognized\x20comma
+SF:nd\r\n")%r(HTTPOptions,AE,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3
+SF:\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x2
+SF:0<2767538516\.1643316260@dep\.fie\.umich\.mx>\r\n-ERR\x20Unrecognized\x
+SF:20command\r\n-ERR\x20Unrecognized\x20command\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port995-TCP:V=7.91%T=SSL%I=7%D=1/27%Time=61F3042F%P=x86_64-apple-darwin
+SF:16.7.0%r(NULL,78,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3
+SF:\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x20<2294905
+SF:943\.1643316265@dep\.fie\.umich\.mx>\r\n")%r(GenericLines,AE,"\+OK\x20d
+SF:ep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010
+SF:\.5:\t9G7013y\x20server\x20ready\x20<2294905943\.1643316265@dep\.fie\.u
+SF:mich\.mx>\r\n-ERR\x20Unrecognized\x20command\r\n-ERR\x20Unrecognized\x2
+SF:0command\r\n")%r(HTTPOptions,AD,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x
+SF:20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20re
+SF:ady\x20<118072459\.1643316276@dep\.fie\.umich\.mx>\r\n-ERR\x20Unrecogni
+SF:zed\x20command\r\n-ERR\x20Unrecognized\x20command\r\n");
+MAC Address: 00:1E:52:F3:FC:2C (Apple)
+Device type: phone|media device|general purpose
+Running: Apple iOS 4.X, Apple Mac OS X 10.6.X
+OS CPE: cpe:/o:apple:iphone_os:4 cpe:/o:apple:mac_os_x:10.6
+OS details: Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0)
+Network Distance: 1 hop
+Service Info: Hosts:  dep.fie.umich.mx, DEP.FIE.UMICH.MX, 127.0.0.1, lsc.fie.umich.mx; OSs: Mac OS X, Mac OS X Server 10.5:.9G7013y; Device: specialized; CPE: cpe:/o:apple:mac_os_x, cpe:/o:apple:mac_os_x:10.5, cpe:/o:apple:mac_os_x:server_10.5%3A_9g7013y
+
+Nmap scan report for 148.216.38.78
+Host is up (0.00066s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH for_Windows_8.1 (protocol 2.0)
+80/tcp   open  http          nginx 1.19.8
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8500/tcp open  fmtp?
+9878/tcp open  kca-service?
+MAC Address: A4:BB:6D:49:A9:8D (Dell)
+Device type: general purpose
+Running: Microsoft Windows 10
+OS CPE: cpe:/o:microsoft:windows_10
+OS details: Microsoft Windows 10 1709 - 1909
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 148.216.38.80
+Host is up (0.00056s latency).
+Not shown: 999 closed ports
+PORT    STATE SERVICE VERSION
+554/tcp open  http    Avtech AVN801 network camera 1.0 (UPnP 1.0)
+MAC Address: 00:0E:53:27:1B:A7 (AV Tech)
+Device type: specialized
+Running: Linux
+OS CPE: cpe:/o:linux:linux_kernel
+OS details: Rebranded surveillance DVR (Hikvision, Q-SEE, EYEsurv, A1Webcams, Foscam)
+Network Distance: 1 hop
+Service Info: OS: Linux; Device: webcam; CPE: cpe:/h:avtech:avn801, cpe:/o:linux:linux_kernel
+
+Nmap scan report for 148.216.38.85
+Host is up (0.00020s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      Dropbear sshd 0.51 (protocol 2.0)
+80/tcp   open  http     thttpd 2.21b 23apr2001 (Built-in PHP)
+427/tcp  open  svrloc?
+443/tcp  open  ssl/http thttpd 2.21b 23apr2001 (Built-in PHP)
+5988/tcp open  http     Web-Based Enterprise Management CIM serverOpenPegasus WBEM httpd
+MAC Address: 00:01:55:35:C5:31 (Promise Technology)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 148.216.38.94
+Host is up (0.00081s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  ZKSoftware ZEM560 access control device (Linux 2.6.24; MIPS)
+80/tcp open  http    ZKTeco embedded web server
+MAC Address: 00:17:61:10:2D:3E (Private)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+Service Info: OS: Linux; Devices: security-misc, specialized; CPE: cpe:/h:zksoftware:zem560, cpe:/o:linux:linux_kernel:2.6.24
+
+Nmap scan report for 148.216.38.101
+Host is up (0.0019s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 7.9 (protocol 2.0)
+445/tcp  open  microsoft-ds?
+548/tcp  open  afp
+3283/tcp open  netassistant?
+5900/tcp open  vnc           Apple remote desktop vnc
+MAC Address: 54:E4:3A:EE:C2:33 (Apple)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=1/27%OT=22%CT=1%CU=36399%PV=N%DS=1%DC=D%G=Y%M=54E43A%T
+OS:M=61F30534%P=x86_64-apple-darwin16.7.0)SEQ(SP=105%GCD=1%ISR=10A%TI=Z%CI=
+OS:RD%II=RI%TS=8)OPS(O1=M4D8NW6NNT11SLL%O2=M4D8NW6NNT11SLL%O3=M4D8NW6NNT11%
+OS:O4=M4D8NW6NNT11SLL%O5=M4D8NW6NNT11SLL%O6=M4D8NNT11SLL)WIN(W1=FFFF%W2=FFF
+OS:F%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M4D8NW6SLL%
+OS:CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y
+OS:%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%R
+OS:D=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%
+OS:S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=
+OS:G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 148.216.38.105
+Host is up (0.00062s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http
+427/tcp  open     svrloc?
+443/tcp  filtered https
+515/tcp  open     printer?
+631/tcp  open     ipp            Xerox or Samsung ipp
+1124/tcp open     tcpwrapped
+5200/tcp filtered targus-getdata
+9100/tcp open     jetdirect?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.91%I=7%D=1/27%Time=61F30448%P=x86_64-apple-darwin16.7.0%
+SF:r(GetRequest,2A1,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\r\nCon
+SF:tent-Type:\x20text/html\r\nContent-Length:\x20543\r\nCache-Control:\x20
+SF:max-age=0,\x20no-store,\x20no-cache\r\n\r\n<html>\n<head>\n<title>\x20H
+SF:ome\x20</title>\n<script\x20src=\"script/cookieCode\.js\"></script>\n<s
+SF:cript\x20src=\"script/Common_script\.js\"></script>\n\n<script\x20langu
+SF:age=\"JavaScript\">\n<!--\n\nChangeDefWebLanguage\(\);\n\n//-->\n</scri
+SF:pt>\n</head>\n<NOSCRIPT>\n<center>\n<font\x20size=\"3\">\n<b>This\x20Pa
+SF:ge\x20Requires\x20JavaScript\x201\.1</b></font>\n<p><font\x20size=\"2\"
+SF:>Your\x20browser\x20either\x20does\x20not\x20support\x20JavaScript,\x20
+SF:or\x20it\x20has\x20JavaScript\x20support\x20disabled\.\x20\nIf\x20you\x
+SF:20want\x20to\x20correctly\x20view\x20this\x20page,\x20please\x20upgrade
+SF:\x20your\x20browser\x20or\x20enable\x20JavaScript\x20support\.</font>\n
+SF:</center>\n</NOSCRIPT>\n</html>\n")%r(FourOhFourRequest,18F,"HTTP/1\.0\
+SF:x20404\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Type:\x20text
+SF:/html\r\nContent-Length:\x20262\r\nCache-Control:\x20max-age=0,\x20no-s
+SF:tore,\x20no-cache\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x
+SF:20HTML\x203\.2//EN\">\n<HTML>\n<HEAD>\n<TITLE>Invalid\x20Request</TITLE
+SF:>\n</HEAD>\n\n<BODY\x20BGCOLOR=\"#FFFFFF\"\x20TEXT=\"#000000\">\n<CENTE
+SF:R>\n<FONT\x20SIZE=\"\+2\"\x20COLOR=\"#FFFFFF\"\x20ALIGN=\"Center\">\n</
+SF:FONT>\n<B>Invalid\x20Request\.\x20Some\x20Error</B>\n</BODY>\n\n</HTML>
+SF:\n\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port515-TCP:V=7.91%I=7%D=1/27%Time=61F30481%P=x86_64-apple-darwin16.7.0
+SF:%r(TerminalServerCookie,24,"PortThru\x20lpd:\x20No\x20Jobs\x20on\x20thi
+SF:s\x20queue\n");
+MAC Address: 9C:93:4E:09:82:AB (Xerox)
+Device type: printer
+Running: Samsung embedded, Xerox embedded
+OS CPE: cpe:/h:samsung:clx-3185 cpe:/h:samsung:clx-6220fx cpe:/h:samsung:ml-1865w cpe:/h:samsung:ml-2580n cpe:/h:samsung:ml-3312nd cpe:/h:xerox:phaser_3300
+OS details: Samsung CLP-620ND, CLX-3185, CLX-6220FX, ML-1865W, ML-2580N, or ML-3312ND; or Xerox Phaser 3300MFP printer
+Network Distance: 1 hop
+Service Info: Device: printer
+
+Nmap scan report for 148.216.38.110
+Host is up (0.00056s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE            VERSION
+22/tcp   open  ssh                OpenSSH 5.6 (protocol 2.0)
+311/tcp  open  ssl/asip-webadmin?
+625/tcp  open  apple-xsrvr-admin?
+5900/tcp open  vnc                Apple remote desktop vnc
+MAC Address: 3C:07:54:5A:8A:FC (Apple)
+Device type: media device|phone
+Running: Apple Mac OS X 10.7.X, Apple iOS 4.X|5.X
+OS CPE: cpe:/o:apple:mac_os_x:10.7 cpe:/o:apple:iphone_os:4 cpe:/o:apple:iphone_os:5
+OS details: Apple Mac OS X 10.7.0 - 10.7.5 (Lion) or iOS 4.2 - 5.0.1 (Darwin 10.4.0 - 11.4.2)
+Network Distance: 1 hop
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 148.216.38.114
+Host is up (0.00034s latency).
+Not shown: 992 filtered ports
+PORT     STATE  SERVICE        VERSION
+80/tcp   open   http           lighttpd 1.4.35
+139/tcp  open   netbios-ssn    Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+443/tcp  open   ssl/http       lighttpd 1.4.35
+445/tcp  open   netbios-ssn    Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+548/tcp  open   afp
+2222/tcp closed EtherNetIP-1
+3493/tcp closed nut
+8888/tcp closed sun-answerbook
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port548-TCP:V=7.91%I=7%D=1/27%Time=61F30459%P=x86_64-apple-darwin16.7.0
+SF:%r(afp,1C8,"\x01\x03\0\x01\0\0\0\0\0\0\x01\xb8\0\0\0\0\0\x1e\0,\0W\0\x8
+SF:8\x8f\]\nSeagate-D4\0\x01\x88\x01\x98\x01\xab\x01\xac\rNetatalk3\.1\.8\
+SF:x06\x06AFP2\.2\x06AFPX03\x06AFP3\.1\x06AFP3\.2\x06AFP3\.3\x06AFP3\.4\x0
+SF:4\x0fNo\x20User\x20Authent\x04DHX2\tDHCAST128\x10Cleartxt\x20Passwrd\0\
+SF:0\0\0\0\x80\x02\0\x01\x80\x03\0\x02\x80\x02\x80\x02\x80\x02\x80\x04\x80
+SF:\x02@\x04\x87\xc2@\x04X4@\x04\x20\x08@\x02\x16\xd0\x80\x01\x01\x01\0\x0
+SF:2\x80\x02\x80\x02\x9cr\x80\x04\"\x88@\x04A\x04@\x04A\x04@\x04A\x04@\x04
+SF:I\$@\x0eUT\xe0\x10\]t\x10\x10>\xf8\x10\x7f\xfc\x7f\xfe\x20\x04@\x04\x1f
+SF:\xfc\x7f\xf8\0\x07\xc0\0\0\x04@\0\0\x03\x80\0\0\x04@\0\xaf\xf9\?\xf5\0\
+SF:x02\x80\0\xaf\xfc\x7f\xf5\0\0\0\0\0\0\0\0\0\x80\x02\0\x01\x80\x03\0\x03
+SF:\x80\x03\x80\x03\x80\x03\x80\x07\x80\x03\xc0\x07\x87\xc3\xc0\x07\xdf\xf
+SF:7\xc0\x07\xff\xff\xc0\x03\xff\xff\x80\x01\xff\xff\0\x03\xff\xff\x80\x03
+SF:\xff\xff\x80\x07\xff\xff\xc0\x07\xff\xff\xc0\x07\xff\xff\xc0\x07\xff\xf
+SF:f\xc0\x07\xff\xff\xc0\x0f\xff\xff\xe0\x1f\xff\xff\xf0\x1f\xff\xff\xf0\x
+SF:7f\xff\xff\xfe\?\xff\xff\xfc\x1f\xff\xff\xf8\0\x07\xc0\0\0\x07\xc0\0\0\
+SF:x03\x80\0\0\x04@\0\xaf\xf9\?\xf5\0\x02\x80\0\xaf\xfc\x7f\xf5\0\0\0\x001
+SF:\xc7\xacg\xec&\xe6>\xa6\x07\xa0B:\xdd6R\x01\x12\x06\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\nSeagate-D4");
+MAC Address: 00:10:75:4E:1B:6A (Segate Technology)
+Device type: broadband router
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3.10
+OS details: DD-WRT v24 or v30 (Linux 3.10)
+Network Distance: 1 hop
+Service Info: Host: SEAGATE-D4
+
+Nmap scan report for 148.216.38.120
+Host is up (0.0011s latency).
+All 1000 scanned ports on 148.216.38.120 are closed
+MAC Address: 00:17:61:11:3A:5D (Private)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: 2N Helios IP VoIP doorbell (95%), Advanced Illumination DCS-100E lighting controller (95%), AudioControl D3400 network amplifier (95%), British Gas GS-Z3 data logger (95%), Daysequerra M4.2SI radio (95%), Denver Electronics AC-5000W MK2 camera (95%), DTE Energy Bridge (lwIP stack) (95%), Enlogic PDU (FreeRTOS/lwIP) (95%), Espressif esp8266 firmware (lwIP stack) (95%), Espressif ESP8266 WiFi system-on-a-chip (95%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.122
+Host is up (0.00039s latency).
+All 1000 scanned ports on 148.216.38.122 are filtered
+MAC Address: AC:84:C6:53:DB:95 (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.123
+Host is up (0.00047s latency).
+All 1000 scanned ports on 148.216.38.123 are filtered
+MAC Address: B0:4E:26:4F:4C:2C (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.126
+Host is up (0.00033s latency).
+All 1000 scanned ports on 148.216.38.126 are filtered
+MAC Address: 68:FF:7B:47:6B:FF (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.127
+Host is up (0.00029s latency).
+All 1000 scanned ports on 148.216.38.127 are filtered
+MAC Address: 68:FF:7B:47:6F:E6 (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.128
+Host is up (0.00030s latency).
+All 1000 scanned ports on 148.216.38.128 are filtered
+MAC Address: AC:84:C6:53:F4:85 (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.130
+Host is up (0.00052s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE    VERSION
+22/tcp   open     ssh        OpenSSH 8.0 (protocol 2.0)
+23/tcp   filtered telnet
+80/tcp   open     http       Hiawatha httpd 9.6
+161/tcp  filtered snmp
+443/tcp  open     ssl/http   Hiawatha httpd 9.6
+3007/tcp open     lotusmtap?
+MAC Address: BC:F3:10:27:99:00 (Extreme Networks)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=1/27%OT=22%CT=1%CU=43697%PV=N%DS=1%DC=D%G=Y%M=BCF310%T
+OS:M=61F30534%P=x86_64-apple-darwin16.7.0)SEQ(SP=107%GCD=1%ISR=109%CI=I%TS=
+OS:A)SEQ(SP=106%GCD=1%ISR=109%TI=I%CI=I%II=I%TS=A)SEQ(SP=107%GCD=1%ISR=109%
+OS:TS=A)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5
+OS:=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=
+OS:7120)ECN(R=Y%DF=N%T=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=N%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.131
+Host is up (0.015s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 8.1 (protocol 2.0)
+88/tcp   open  kerberos-sec  Heimdal Kerberos (server time: 2022-01-27 20:45:14Z)
+3283/tcp open  netassistant?
+5900/tcp open  vnc           Apple remote desktop vnc
+MAC Address: EC:35:86:52:18:04 (Apple)
+Device type: phone|general purpose
+Running: Apple iOS 11.X|12.X|13.X, Apple macOS 10.13.X|10.14.X|10.15.X
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15
+OS details: Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.2.0)
+Network Distance: 1 hop
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 148.216.38.190
+Host is up (0.00045s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 8.1 (protocol 2.0)
+88/tcp   open  kerberos-sec  Heimdal Kerberos (server time: 2022-01-27 20:45:16Z)
+3283/tcp open  netassistant?
+5900/tcp open  vnc           Apple remote desktop vnc
+MAC Address: 10:DD:B1:D4:18:30 (Apple)
+Device type: phone|general purpose
+Running: Apple iOS 11.X|12.X|13.X, Apple macOS 10.13.X|10.14.X|10.15.X
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15
+OS details: Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.2.0)
+Network Distance: 1 hop
+Service Info: OS: Mac OS X; CPE: cpe:/o:apple:mac_os_x
+
+Nmap scan report for 148.216.38.211
+Host is up (0.00026s latency).
+Not shown: 995 closed ports
+PORT      STATE SERVICE           VERSION
+139/tcp   open  netbios-ssn?
+445/tcp   open  microsoft-ds      Apple Time Capsule smbd
+548/tcp   open  afp               Apple Time Capsule AFP (name: ricos-airport-time-capsule; protocol 3.3)
+5009/tcp  open  airport-admin     Apple AirPort or Time Capsule admin
+10000/tcp open  snet-sensor-mgmt?
+MAC Address: 5C:96:9D:6D:22:40 (Apple)
+Device type: WAP|storage-misc|general purpose
+Running: Apple NetBSD 4.X, QNX RTOS 6.X
+OS CPE: cpe:/h:apple:airport_extreme cpe:/o:apple:netbsd:4.99 cpe:/o:qnx:rtos:6.5.0
+OS details: Apple AirPort Extreme WAP or Time Capsule NAS device (NetBSD 4.99), or QNX RTOS 6.5.0
+Network Distance: 1 hop
+Service Info: Host: 148.216.38.211; Device: storage-misc
+
+Nmap scan report for 148.216.38.237
+Host is up (0.00027s latency).
+All 1000 scanned ports on 148.216.38.237 are filtered
+MAC Address: 98:DA:C4:F7:5B:8F (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 148.216.38.247
+Host is up (0.00023s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE   VERSION
+22/tcp  open  ssh       OpenSSH 8.7p1 Ubuntu 2 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http      Apache httpd 2.4.48 ((Ubuntu))
+443/tcp open  ssl/https Apache/2.4.48 (Ubuntu)
+MAC Address: 00:25:AB:31:D0:BE (AIO LCD PC BU / TPV)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for faraday.fie.umich.mx (148.216.38.250)
+Host is up (0.00031s latency).
+Not shown: 974 closed ports
+PORT     STATE SERVICE            VERSION
+22/tcp   open  ssh                OpenSSH 5.2 (protocol 2.0)
+25/tcp   open  smtp               Postfix smtpd
+53/tcp   open  domain             ISC BIND 9.4.3-P3
+80/tcp   open  http               nginx 1.19.8
+88/tcp   open  kerberos-sec       MIT Kerberos (server time: 2022-01-27 20:45:28Z)
+106/tcp  open  pop3pw             ApplePasswordServer pop3 password change daemon 10.5.0.1
+110/tcp  open  pop3
+111/tcp  open  rpcbind            2 (RPC #100000)
+143/tcp  open  imap               Cyrus imapd 2.3.8 (Mac OS X 10.5)
+311/tcp  open  tcpwrapped
+389/tcp  open  ldap               OpenLDAP 2.2.X - 2.3.X
+443/tcp  open  ssl/http           Apache httpd 2.2.13 (mod_ssl/2.2.17 OpenSSL/0.9.7l mod_python/3.3.1 Python/2.5.1 mod_wsgi/3.3 PHP/5.3.0 mod_perl/2.0.2 Perl/v5.8.8)
+548/tcp  open  afp                Apple AFP (name: dep (3); protocol 3.3; Mac OS X 10.5)
+625/tcp  open  apple-xsrvr-admin?
+749/tcp  open  rpcbind
+993/tcp  open  ssl/imap           Cyrus imapd 2.3.8 (Mac OS X 10.5)
+995/tcp  open  ssl/pop3
+1021/tcp open  nlockmgr           0-4 (RPC #100021)
+1022/tcp open  status             1 (RPC #100024)
+1023/tcp open  mountd             1-3 (RPC #100005)
+2000/tcp open  sieve              Cyrus timsieved 2.3.8
+2049/tcp open  nfs                2-3 (RPC #100003)
+3659/tcp open  pop3pw             ApplePasswordServer pop3 password change daemon 10.5.0.1
+4111/tcp open  beep               Apple Xgrid Controller
+5432/tcp open  postgresql         PostgreSQL DB 8.4.1 - 8.4.11
+5900/tcp open  vnc                Apple remote desktop vnc
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.91%I=7%D=1/27%Time=61F30469%P=x86_64-apple-darwin16.7.0
+SF:%r(NULL,78,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS
+SF:\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x20<2129006808\.1
+SF:643316326@dep\.fie\.umich\.mx>\r\n")%r(GenericLines,AE,"\+OK\x20dep\.fi
+SF:e\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t
+SF:9G7013y\x20server\x20ready\x20<2129006808\.1643316326@dep\.fie\.umich\.
+SF:mx>\r\n-ERR\x20Unrecognized\x20command\r\n-ERR\x20Unrecognized\x20comma
+SF:nd\r\n")%r(HTTPOptions,AE,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3
+SF:\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x2
+SF:0<2849623577\.1643316334@dep\.fie\.umich\.mx>\r\n-ERR\x20Unrecognized\x
+SF:20command\r\n-ERR\x20Unrecognized\x20command\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port995-TCP:V=7.91%T=SSL%I=7%D=1/27%Time=61F3047A%P=x86_64-apple-darwin
+SF:16.7.0%r(NULL,78,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3
+SF:\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20ready\x20<2448125
+SF:451\.1643316340@dep\.fie\.umich\.mx>\r\n")%r(GenericLines,AE,"\+OK\x20d
+SF:ep\.fie\.umich\.mx\x20Cyrus\x20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010
+SF:\.5:\t9G7013y\x20server\x20ready\x20<2448125451\.1643316340@dep\.fie\.u
+SF:mich\.mx>\r\n-ERR\x20Unrecognized\x20command\r\n-ERR\x20Unrecognized\x2
+SF:0command\r\n")%r(HTTPOptions,AD,"\+OK\x20dep\.fie\.umich\.mx\x20Cyrus\x
+SF:20POP3\x20v2\.3\.8-OS\x20X\x20Server\x2010\.5:\t9G7013y\x20server\x20re
+SF:ady\x20<790886531\.1643316352@dep\.fie\.umich\.mx>\r\n-ERR\x20Unrecogni
+SF:zed\x20command\r\n-ERR\x20Unrecognized\x20command\r\n");
+MAC Address: 00:1E:52:F3:FC:2D (Apple)
+Device type: phone|media device|general purpose
+Running: Apple iOS 4.X, Apple Mac OS X 10.6.X
+OS CPE: cpe:/o:apple:iphone_os:4 cpe:/o:apple:mac_os_x:10.6
+OS details: Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0)
+Network Distance: 1 hop
+Service Info: Hosts:  dep.fie.umich.mx, DEP.FIE.UMICH.MX, 127.0.0.1, lsc.fie.umich.mx; OSs: Mac OS X, Mac OS X Server 10.5:.9G7013y; Device: specialized; CPE: cpe:/o:apple:mac_os_x, cpe:/o:apple:mac_os_x:10.5, cpe:/o:apple:mac_os_x:server_10.5%3A_9g7013y
+
+Nmap scan report for 148.216.38.254
+Host is up (0.0019s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE    VERSION
+22/tcp  open  tcpwrapped
+443/tcp open  ssl/http   ExtremeWare XOS httpd 22nov2004
+MAC Address: 00:04:96:52:69:8D (Extreme Networks)
+Device type: switch
+Running: Extreme Networks ExtremeXOS 15.X|12.X
+OS CPE: cpe:/o:extremenetworks:extremexos:15.3 cpe:/o:extremenetworks:extremexos:12.5.1
+OS details: Extreme Networks ExtremeXOS 12.5.1 or 15.3
+Network Distance: 1 hop
+Service Info: OS: ExtremeXOS; CPE: cpe:/o:extremenetworks:extremeware_xos
+
+Nmap scan report for 148.216.38.98
+Host is up (0.00010s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 7.6 (protocol 2.0)
+80/tcp   open  http          nginx 1.19.8
+548/tcp  open  afp           Apple AFP (name: Mario.s Mac Pro; protocol 3.4; OS X 10.9 - 10.11; MacPro5,1)
+3283/tcp open  netassistant?
+5900/tcp open  vnc           Apple remote desktop vnc
+8080/tcp open  http          Apache httpd 2.4.46 ((Unix))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=1/27%OT=22%CT=1%CU=32711%PV=N%DS=0%DC=L%G=Y%TM=61F305E
+OS:8%P=x86_64-apple-darwin16.7.0)SEQ(SP=102%GCD=1%ISR=10D%TI=Z%CI=RD%II=RI%
+OS:TS=A)OPS(O1=M3FD8NW5NNT11SLL%O2=M3FD8NW5NNT11SLL%O3=M3FD8NW5NNT11%O4=M3F
+OS:D8NW5NNT11SLL%O5=M3FD8NW5NNT11SLL%O6=M3FD8NNT11SLL)WIN(W1=FFFF%W2=FFFF%W
+OS:3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M3FD8NW5SLL%CC
+OS:=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T
+OS:=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=
+OS:0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=
+OS:Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=Z%
+OS:RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 0 hops
+Service Info: OSs: OS X, Mac OS X; CPE: cpe:/o:apple:mac_os_x:10.9, cpe:/o:apple:mac_os_x
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (31 hosts up) scanned in 555.20 seconds
